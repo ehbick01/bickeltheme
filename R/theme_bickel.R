@@ -33,7 +33,7 @@ theme_bickel <- function() {
   color.subtitle = palette[8]
 
   # Begin construction of chart
-  theme_bw(base_family = 'Roboto Condensed') +
+  theme_bw(base_family = 'Arial') +
     theme(
       plot.title = element_text(
         color = color.title,
